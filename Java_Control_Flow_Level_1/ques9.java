@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class ques9
+ {
+    public static void main(String args[]) 
+	{
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter the countNum ");
+        int countNum = sc.nextInt();
+
+        for (int i = countNum; i >= 1; i--) {
+            System.out.println(i);
+        }
+
+      
+    }
+}
